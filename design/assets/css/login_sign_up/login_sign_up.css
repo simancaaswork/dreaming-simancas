@@ -1,0 +1,686 @@
+@media (max-width: 442px) {
+  .sign-in-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .image-sign-in {
+    display: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .image-sign-in img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0 2rem 0 0;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in {
+    padding: 1rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    position: relative;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in h1 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text],
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password] {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem 0;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:focus,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:hover,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:hover {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    margin: 0.4rem 0;
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #62bdfa;
+    transition: all ease 0.2s;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:hover {
+    background-color: #3292d1;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in a {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-decoration: none;
+    color: #2897e0;
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    width: 80%;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login span {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span {
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span a {
+    text-decoration: none;
+    color: #2897e0;
+  }
+}
+@media (min-width: 443px) and (max-width: 809px) {
+  .sign-in-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 80%;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .image-sign-in {
+    display: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .image-sign-in img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0 2rem 0 0;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in {
+    padding: 1rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    position: relative;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in h1 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text],
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password] {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem 0;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:focus,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:hover,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:hover {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    margin: 0.4rem 0;
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #62bdfa;
+    transition: all ease 0.2s;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:hover {
+    background-color: #3292d1;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in a {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-decoration: none;
+    color: #2897e0;
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    width: 80%;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login span {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span {
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span a {
+    text-decoration: none;
+    color: #2897e0;
+  }
+}
+@media (min-width: 810px) and (max-width: 1003px) {
+  .sign-in-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .image-sign-in img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0 2rem 0 0;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in {
+    padding: 1rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    position: relative;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in h1 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text],
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password] {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem 0;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:focus,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:hover,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:hover {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    margin: 0.4rem 0;
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #62bdfa;
+    transition: all ease 0.2s;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:hover {
+    background-color: #3292d1;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in a {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-decoration: none;
+    color: #2897e0;
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    width: 80%;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login span {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span {
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span a {
+    text-decoration: none;
+    color: #2897e0;
+  }
+}
+@media (min-width: 1004px) and (max-width: 1200px) {
+  .sign-in-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70%;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .image-sign-in img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0 2rem 0 0;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in {
+    padding: 1rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    position: relative;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in h1 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text],
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password] {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem 0;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:focus,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:hover,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:hover {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    margin: 0.4rem 0;
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #62bdfa;
+    transition: all ease 0.2s;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:hover {
+    background-color: #3292d1;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in a {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-decoration: none;
+    color: #2897e0;
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    width: 80%;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login span {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span {
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span a {
+    text-decoration: none;
+    color: #2897e0;
+  }
+}
+@media (min-width: 1201px) {
+  .sign-in-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 60%;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .image-sign-in img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0 2rem 0 0;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in {
+    padding: 1rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    position: relative;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in h1 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text],
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password] {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem 0;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:hover,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:hover {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=text]:focus,
+.sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form input[type=password]:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    margin: 0.4rem 0;
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #62bdfa;
+    transition: all ease 0.2s;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:hover {
+    background-color: #3292d1;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in form button:focus {
+    outline: none;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in a {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-decoration: none;
+    color: #2897e0;
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    width: 80%;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .login-form-sign-in .alert-msg-login span {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.02);
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span {
+    font-size: 0.8rem;
+  }
+  .sign-in-wrapper .wrapper-components-login .form-sign-in .go-to-sign-up span a {
+    text-decoration: none;
+    color: #2897e0;
+  }
+}
+/*  Loader  */
+.lds-dual-ring-login {
+  display: inline-block;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.lds-dual-ring-login:after {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #2897e0;
+  border-color: #2897e0 transparent #2897e0 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=login_sign_up.css.map */

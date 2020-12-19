@@ -1,0 +1,186 @@
+/*  Global styles */
+
+.caption-post-home {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 0rem 0.5rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 500px) {
+  .caption-post-home {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0rem 0.5rem 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .caption-post-home strong {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.profile-wrapper
+  .body-profile-wrapper
+  .grid-publication-wrapper
+  .publication-post-card
+  a
+  img {
+  object-fit: initial !important;
+}
+
+.more-post-about-user .grid-more-posts-user-wrapper .post-about-user a img {
+  object-fit: cover !important;
+}
+
+.post-alone-wrapper .info-post-image-wrapper {
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: 80px 600px !important;
+}
+
+.profile-wrapper
+  .head-profile-wrapper
+  .info-about-user-profile
+  .user-btn-profile
+  .btns-follow-friend-user
+  button:focus {
+  outline: none;
+}
+
+.post-alone-wrapper
+  .info-post-image-wrapper
+  .comment-section-post-alone
+  .actions-by-users-section
+  form
+  button:focus {
+  outline: none;
+}
+
+nav .btn-navigation .float-user-option {
+  right: 10% !important;
+}
+
+@media (max-width: 810px) {
+  .profile-wrapper
+    .body-profile-wrapper
+    .grid-publication-wrapper
+    .publication-post-card
+    a
+    img {
+    object-fit: cover !important;
+  }
+}
+
+/*  No notifications yet  */
+.no-notifications-yet {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-notifications-yet h2 {
+  font-size: 1.4rem;
+  margin: 0.2rem 0;
+}
+
+.no-notifications-yet span {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.title-users-registered h2 {
+  font-weight: 200 !important;
+}
+
+.change-info-user-img-config img {
+  object-fit: cover;
+}
+
+.img-user-profile img {
+  object-fit: cover;
+}
+
+/*  MSG alert not posts yet profile */
+.alert-no-post-yet {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alert-no-post-yet h2 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.alert-no-post-yet p {
+  margin: 0.4rem 0;
+}
+
+.alert-no-post-yet p a {
+  text-decoration: none;
+  color: #0575c0;
+}
+
+/*  image profile navbar */
+.btn-navigation .user-profile img {
+  object-fit: cover;
+}
+
+/*  image profile aside */
+.wrapper-aside-home .user-account img {
+  object-fit: cover;
+}
+
+/*  image profile post card header */
+.post-card-header a img {
+  object-fit: cover;
+}
+
+/*  image profile post card header preview */
+.head-preview-image img {
+  object-fit: cover;
+}
+
+/*  image profile suggest users*/
+.user-suggest-detail img {
+  object-fit: cover;
+}
+
+.grid-users-registerd .user-registered img {
+  object-fit: cover;
+}
+
+.wrapper-posts-home .post-body-option-info .btn-option {
+  margin-bottom: 0.4rem;
+}
+
+.not-notifications-yet {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.not-notifications-yet h2 {
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.not-notifications-yet a {
+  text-decoration: none;
+  color: #0575c0;
+}
+
+.author-description-info img {
+  object-fit: cover;
+}
+
+.comment-people-info img {
+  object-fit: cover;
+}

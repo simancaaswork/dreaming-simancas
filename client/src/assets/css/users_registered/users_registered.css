@@ -1,0 +1,452 @@
+@media (max-width: 442px) {
+  .wrapper-users-registered {
+    width: 100%;
+    margin: 2rem auto 6rem;
+  }
+  .wrapper-users-registered .title-users-registered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 2rem;
+  }
+  .wrapper-users-registered .title-users-registered h2 {
+    margin: 0.4rem;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+  }
+  .wrapper-users-registered .title-users-registered p {
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered {
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    padding-top: 0;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.01);
+    border-radius: 0.2rem;
+    display: flex;
+    transition: "box-shadow" 0.2s;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem 0 1.8rem;
+    flex-direction: column;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translateY(-12px);
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered a {
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow-y: hidden;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered h5 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered,
+.wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    margin: 0.4rem 0;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered {
+    background-color: #0095f6;
+    color: #fff;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: #eee;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered:hover {
+    box-shadow: 1px 1px 4px 1px rgba(0, 149, 246, 0.05);
+  }
+}
+@media (min-width: 443px) and (max-width: 809px) {
+  .wrapper-users-registered {
+    width: 95%;
+    margin: 2rem auto 6rem;
+  }
+  .wrapper-users-registered .title-users-registered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 2rem;
+  }
+  .wrapper-users-registered .title-users-registered h2 {
+    margin: 0.4rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  .wrapper-users-registered .title-users-registered p {
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered {
+    width: 280px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    padding-top: 0;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.01);
+    border-radius: 0.2rem;
+    display: flex;
+    transition: "box-shadow" 0.2s;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+    flex-direction: column;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translateY(-12px);
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered a {
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow-y: hidden;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered h5 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered,
+.wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    margin: 0.4rem 0;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered {
+    background-color: #0095f6;
+    color: #fff;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: #eee;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered:hover {
+    box-shadow: 1px 1px 4px 1px rgba(0, 149, 246, 0.05);
+  }
+}
+@media (min-width: 810px) and (max-width: 1003px) {
+  .wrapper-users-registered {
+    width: 90%;
+    margin: 6rem auto;
+  }
+  .wrapper-users-registered .title-users-registered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 2rem;
+  }
+  .wrapper-users-registered .title-users-registered h2 {
+    margin: 0.4rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  .wrapper-users-registered .title-users-registered p {
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered {
+    width: 260px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    padding-top: 0;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.01);
+    border-radius: 0.2rem;
+    display: flex;
+    transition: "box-shadow" 0.2s;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+    flex-direction: column;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translateY(-12px);
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered a {
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow-y: hidden;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered h5 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered,
+.wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    margin: 0.4rem 0;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered {
+    background-color: #0095f6;
+    color: #fff;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: #eee;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered:hover {
+    box-shadow: 1px 1px 4px 1px rgba(0, 149, 246, 0.05);
+  }
+}
+@media (min-width: 1004px) and (max-width: 1200px) {
+  .wrapper-users-registered {
+    width: 90%;
+    margin: 6rem auto;
+  }
+  .wrapper-users-registered .title-users-registered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 2rem;
+  }
+  .wrapper-users-registered .title-users-registered h2 {
+    margin: 0.4rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  .wrapper-users-registered .title-users-registered p {
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered {
+    width: 260px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    padding-top: 0;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.01);
+    border-radius: 0.2rem;
+    display: flex;
+    transition: "box-shadow" 0.2s;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+    flex-direction: column;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translateY(-12px);
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered a {
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow-y: hidden;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered h5 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered,
+.wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    margin: 0.4rem 0;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered {
+    background-color: #0095f6;
+    color: #fff;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: #eee;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered:hover {
+    box-shadow: 1px 1px 4px 1px rgba(0, 149, 246, 0.05);
+  }
+}
+@media (min-width: 1201px) {
+  .wrapper-users-registered {
+    width: 90%;
+    margin: 6rem auto;
+  }
+  .wrapper-users-registered .title-users-registered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 2rem;
+  }
+  .wrapper-users-registered .title-users-registered h2 {
+    margin: 0.4rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  .wrapper-users-registered .title-users-registered p {
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    padding-top: 0;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.01);
+    border-radius: 0.2rem;
+    display: flex;
+    transition: "box-shadow" 0.2s;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    flex-direction: column;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translateY(-12px);
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered a {
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow-y: hidden;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered h5 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.9rem;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered,
+.wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: unset;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    margin: 0.4rem 0;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .follow-btn-userd-registered {
+    background-color: #0095f6;
+    color: #fff;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered .unfollow-btn-userd-registered {
+    background-color: #eee;
+  }
+  .wrapper-users-registered .grid-users-registerd .user-registered:hover {
+    box-shadow: 1px 1px 4px 1px rgba(0, 149, 246, 0.05);
+  }
+}
+
+/*# sourceMappingURL=users_registered.css.map */

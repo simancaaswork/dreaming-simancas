@@ -1,0 +1,65 @@
+http://localhost:5050/api
+
+
+
+/*  to create a new user  */
+
+    /register/create/user
+
+{
+    "email": "simancaaswork@gmail.com",
+    "name": "Hector L Simancas P",
+    "password": "123",
+    "username": "simancasart"
+}
+
+
+
+
+
+
+/*  to login in  */
+
+    /login
+
+
+{
+    "email": "alejandrousa1@gmail.com",
+    "password": "1234"
+}
+
+
+
+
+
+
+/*  to edit user profile  */
+
+/user/edit/:id
+{
+    "email": "simancaaswork@gmail.com",
+    "name": "Hector L Simancas P",
+    "password": "123",
+    "username": "simancasarttttttt",
+    "biography": "lorem ipsum",
+    "website": "lorem ipsum"
+}
+
+
+
+
+
+
+/*  to create a new post  */
+
+    /post/create
+
+{
+    "creator_id": "5fc4fddd19915a1c9c0b7604",
+    "image": "url to server cloudinary",
+    "caption": "lorem ipsum",
+    "post_permission": {
+        "allow_comments": true,
+        "allow_likes": true
+    }
+}

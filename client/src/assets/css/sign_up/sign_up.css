@@ -1,0 +1,220 @@
+@media (max-width: 442px) {
+  .sign-up-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-up-wrapper .section-register-form,
+.sign-up-wrapper .go-to-login-redirection {
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.06);
+    width: 95%;
+  }
+  .sign-up-wrapper .section-register-form {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  .sign-up-wrapper .section-register-form .head-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sign-up-wrapper .section-register-form .head-sign-up h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: "Pacifico", cursive;
+  }
+  .sign-up-wrapper .section-register-form .head-sign-up h2 {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .sign-up-wrapper .section-register-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .sign-up-wrapper .section-register-form form input[type=text],
+.sign-up-wrapper .section-register-form form input[type=password],
+.sign-up-wrapper .section-register-form form input[type=email] {
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
+    margin: 0.2rem 0;
+    border-radius: 0.2rem;
+  }
+  .sign-up-wrapper .section-register-form form input[type=text]:focus,
+.sign-up-wrapper .section-register-form form input[type=password]:focus,
+.sign-up-wrapper .section-register-form form input[type=email]:focus {
+    outline: none;
+  }
+  .sign-up-wrapper .section-register-form form button {
+    background-color: unset;
+    border: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    margin: 0.4rem 0;
+    background-color: #39aaf5;
+    color: #fff;
+    transition: all ease 0.2s;
+  }
+  .sign-up-wrapper .section-register-form form button:hover {
+    background-color: #0575c0;
+  }
+  .sign-up-wrapper .section-register-form form button:focus {
+    outline: none;
+  }
+  .sign-up-wrapper .section-register-form .alert-error-msg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem 1rem;
+    border-radius: 0 0 0.2rem 0.2rem;
+  }
+  .sign-up-wrapper .section-register-form .alert-error-msg span {
+    color: #fff;
+    font-size: 0.8rem;
+  }
+  .sign-up-wrapper .go-to-login-redirection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .sign-up-wrapper .go-to-login-redirection span {
+    font-size: 0.9rem;
+  }
+  .sign-up-wrapper .go-to-login-redirection span a {
+    color: #39aaf5;
+    text-decoration: none;
+  }
+}
+@media (min-width: 443px) {
+  .sign-up-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sign-up-wrapper .section-register-form,
+.sign-up-wrapper .go-to-login-redirection {
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.01);
+    width: 340px;
+  }
+  .sign-up-wrapper .section-register-form {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  .sign-up-wrapper .section-register-form .head-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sign-up-wrapper .section-register-form .head-sign-up h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: "Pacifico", cursive;
+  }
+  .sign-up-wrapper .section-register-form .head-sign-up h2 {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .sign-up-wrapper .section-register-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .sign-up-wrapper .section-register-form form input[type=text],
+.sign-up-wrapper .section-register-form form input[type=password],
+.sign-up-wrapper .section-register-form form input[type=email] {
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+  }
+  .sign-up-wrapper .section-register-form form input[type=text]:focus,
+.sign-up-wrapper .section-register-form form input[type=password]:focus,
+.sign-up-wrapper .section-register-form form input[type=email]:focus {
+    outline: none;
+  }
+  .sign-up-wrapper .section-register-form form button {
+    background-color: unset;
+    border: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    margin: 0.4rem 0;
+    background-color: #39aaf5;
+    color: #fff;
+    transition: all ease 0.2s;
+  }
+  .sign-up-wrapper .section-register-form form button:hover {
+    background-color: #0575c0;
+  }
+  .sign-up-wrapper .section-register-form form button:focus {
+    outline: none;
+  }
+  .sign-up-wrapper .section-register-form .alert-error-msg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem 1rem;
+    border-radius: 0 0 0.2rem 0.2rem;
+  }
+  .sign-up-wrapper .section-register-form .alert-error-msg span {
+    color: #fff;
+    font-size: 0.8rem;
+  }
+  .sign-up-wrapper .go-to-login-redirection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .sign-up-wrapper .go-to-login-redirection span {
+    font-size: 0.9rem;
+  }
+  .sign-up-wrapper .go-to-login-redirection span a {
+    color: #39aaf5;
+    text-decoration: none;
+  }
+}
+
+/*# sourceMappingURL=sign_up.css.map */

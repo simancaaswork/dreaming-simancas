@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/17311873cd.js" crossorigin="anonymous"></script>
+    
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/home/home.css">
+    <link rel="stylesheet" href="./assets/css/profile/profile.css">
+    <link rel="stylesheet" href="./assets/css/post/post.css">
+    <link rel="stylesheet" href="./assets/css/login_sign_up/login_sign_up.css">
+    <link rel="stylesheet" href="./assets/css/upload_image/upload_image.css">
+
+    <title>dreaming — Simancas</title>
+</head>
+<body>
+    <nav>
+        <div class="project-name">
+            <h1>dreaming</h1>
+        </div>
+        <div class="btn-navigation">
+            <a href="#"><i class="fas fa-home"></i></a>
+            <div class="heart-icon">
+                <i class="far fa-heart"></i>
+                <span>4</span>
+            </div>
+            <div class="user-profile">
+                <img src="./assets/imgs/developer/simancas.jpg" alt="">
+            </div>
+
+            <a href="#!" class="post-route-btn">
+                <i class="fas fa-plus"></i>
+                <span>Publicar</span>
+            </a>
+
+            <div class="float-user-option">
+                <a href="#"><i class="far fa-user-circle"></i> perfil</a>
+                <a href="#"><i class="far fa-bookmark"></i> guardado</a>
+                <a href="#"><i class="fas fa-hammer"></i> configuración</a>
+                <hr>
+                <button>salir</button>
+            </div>
+
+            <div class="float-notification-box">
+                <a href="#" class="notification-follow">
+                    <img src="./assets/imgs/users/1.jpg" alt="" class="img-user">
+                    <div class="body-notification">
+                        <h5>riquisimas_bqto</h5>
+                        <span>comenzó a seguirte</span>
+                    </div>
+                </a>
+                <a href="#" class="notification-heart">
+                    <img src="./assets/imgs/users/2.jpg" alt="" class="img-user">
+                    <div class="body-notification">
+                        <span>A <strong>simancashector</strong> le gustó tu foto</span>
+                    </div>
+                    <img src="./assets/imgs/post/1.jpg" alt="" class="img-notification">
+                </a>
+                <a href="#" class="notification-comment">
+                    <img src="./assets/imgs/users/3.jpg" alt="" class="img-user">
+                    <div class="body-notification">
+                        <span class="msg-notification"><strong>magdalein_picon</strong> te hizo un comentario</span>
+                        <span class="info-notification">me encanta esa foto!</span>
+                    </div>
+                    <img src="./assets/imgs/post/2.jpg" alt="" class="img-notification">
+                </a>
+                <a href="#" class="notification-heart">
+                    <img src="./assets/imgs/users/2.jpg" alt="" class="img-user">
+                    <div class="body-notification">
+                        <span>A <strong>simancashector</strong> le gustó tu foto</span>
+                    </div>
+                    <img src="./assets/imgs/post/1.jpg" alt="" class="img-notification">
+                </a>
+                <a href="#" class="notification-follow">
+                    <img src="./assets/imgs/users/1.jpg" alt="" class="img-user">
+                    <div class="body-notification">
+                        <h5>riquisimas_bqto</h5>
+                        <span>comenzó a seguirte</span>
+                    </div>
+                </a>
+                <a href="#" class="notification-heart">
+                    <img src="./assets/imgs/users/2.jpg" alt="" class="img-user">
+                    <div class="body-notification">
+                        <span>A <strong>simancashector</strong> le gustó tu foto</span>
+                    </div>
+                    <img src="./assets/imgs/post/1.jpg" alt="" class="img-notification">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="upload-image-wrapper">
+        <div class="form-section-upload-image">
+            <div class="upload-image-form">
+                <label for="upload_image">Sube tu imagen</label>
+                <input type="file" id="upload_image">
+            </div>
+            <div class="component-text-react">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Habla sobre la imagen..."></textarea>
+            </div>
+            <div class="configuration-post-aaction">
+                <h5>Que acciones pueden hacer los usuarios</h5>
+                <div class="option-configuration">
+                    <label for="likes-confing">Permitir me gustas</label>
+                    <div class="btn-container">
+                        <div class="red-side-btn"></div>
+                        <div class="green-btn-side"></div>
+                        <div class="btn-dinamic"></div>
+                    </div>
+                </div>
+                <div class="option-configuration">
+                    <label for="comments-confing">Permitir comentarios</label>
+                    <div class="btn-container">
+                        <div class="red-side-btn"></div>
+                        <div class="green-btn-side"></div>
+                        <div class="btn-dinamic off"></div>
+                    </div>
+                </div>
+            </div>
+            <button>Publicar post</button>
+            <div class="alert-error-upload">
+                <span>Debes subir al menos una imagen</span>
+            </div>
+        </div>
+        <div class="preview-image-upload">
+            <div class="alert-msg-preview">
+                <span>Podrás tener una vista preliminar de tu post!</span>
+            </div>
+            <div class="preview-image-show">
+                <div class="head-preview-image">
+                    <img src="./assets/imgs/users/3.jpg" alt="">
+                    <div class="info-about-user-preview">
+                        <a href="#">simancasart</a>
+                        <span>Hace unos minutos</span>
+                    </div>
+                </div>
+                <div class="body-image-preview">
+                    <img src="./assets/imgs/post/3.jpg" alt="">
+                </div>
+                <div class="principal-options-preview">
+                    <div class="wrapper-options-preview">
+                        <div class="btn-principal-preview">
+                            <i class="fas fa-heart"></i>
+                            <i class="far fa-comment-alt"></i>
+                        </div>
+                        <i class="far fa-bookmark"></i>
+                    </div>
+                    <div class="post-liked-info-preview">
+                        <span>Les gusta a magdalein_picon y <strong>28 personas más</strong></span>
+                    </div>
+
+                    <div class="user-text-description-preview">
+                        <span>simancasart</span>
+                        <div class="description-box-preview">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit itaque corrupti ipsum soluta optio quae, ducimus amet voluptates magni quaerat eius ad sunt, atque iste.</p>
+                        </div>
+                    </div>
+
+                    <div class="post-comments-box-preview">
+                        <div class="comment-post-box-preview">
+                            <p><a href="#">gatomaga</a> Lorem ipsum dolor sit amet.</p>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div class="comment-post-box-preview">
+                            <p><a href="#">simancasart</a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sint excepturi obcaecati delectus? Doloribus, consequuntur.</p>
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="uploading-image-wait">
+        <div class="lds-dual-ring"></div>
+        <h5>Subiendo imagen</h5>
+    </div>
+
+    <div class="navbar-mobile">
+        <a href="#!">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="#!" class="notifications-box">
+            <i class="far fa-heart"></i>
+            <span>4</span>
+        </a>
+        <a href="#!">
+            <i class="fas fa-plus"></i>
+        </a>
+        <a href="#!">
+            <i class="far fa-user-circle"></i>
+        </a>
+        <a href="#!">
+            <i class="far fa-bookmark"></i>
+        </a>
+        <a href="#!">
+            <i class="fas fa-hammer"></i>
+        </a>
+        <a href="#!">
+            <i class="fas fa-sign-out-alt"></i>
+        </a>
+    </div>
+</body>
+</html>

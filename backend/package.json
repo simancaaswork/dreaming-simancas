@@ -1,0 +1,22 @@
+{
+  "name": "backend-dreaming-simancas",
+  "version": "1.0.0",
+  "description": "back-end develope to process all information from dreaming interface. ",
+  "main": "index.js",
+  "author": "Hector L. Simancas. P.",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.17",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "uuid": "^8.3.1"
+  }
+}

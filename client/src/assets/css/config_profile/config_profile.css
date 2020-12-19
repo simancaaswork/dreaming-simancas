@@ -1,0 +1,757 @@
+@media (max-width: 442px) {
+  .config-profile-wrapper {
+    width: 95%;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 2rem auto 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  .config-profile-wrapper .content-config-profile {
+    width: 100%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto 2rem;
+    width: 80%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo label {
+    font-size: 0.9rem;
+    color: #0095f6;
+    font-weight: 600;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo label {
+    font-size: 0.9rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name {
+    margin-left: 1rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text], .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email] {
+    width: 100%;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text]:focus, .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email]:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists {
+    margin: 0.4rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists span {
+    font-size: 0.9rem;
+    color: red;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button {
+    background-color: unset;
+    border: unset;
+    background-color: #39aaf5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.2s;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:hover {
+    background-color: #0575c0;
+  }
+  .config-profile-wrapper .alert-error-config-msg {
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 50%;
+    transform: translateX(50%);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .config-profile-wrapper .alert-error-config-msg span {
+    font-size: 0.9rem;
+  }
+
+  .fixed-alert-msg-from-server {
+    position: fixed;
+    bottom: 4rem;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fixed-alert-msg-from-server span {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .fixed-alert-msg-from-server span strong {
+    color: #0095f6;
+  }
+}
+@media (min-width: 443px) and (max-width: 809px) {
+  .config-profile-wrapper {
+    width: 90%;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 2rem auto 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  .config-profile-wrapper .content-config-profile {
+    width: 100%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 65%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo label {
+    font-size: 0.9rem;
+    color: #0095f6;
+    font-weight: 600;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo label {
+    font-size: 0.9rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name {
+    margin-left: 1rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text], .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email] {
+    width: 100%;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text]:focus, .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email]:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists {
+    margin: 0.4rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists span {
+    font-size: 0.9rem;
+    color: red;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button {
+    background-color: unset;
+    border: unset;
+    background-color: #39aaf5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.2s;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:hover {
+    background-color: #0575c0;
+  }
+  .config-profile-wrapper .alert-error-config-msg {
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+  }
+  .config-profile-wrapper .alert-error-config-msg span {
+    font-size: 0.9rem;
+  }
+
+  .fixed-alert-msg-from-server {
+    position: fixed;
+    bottom: 4rem;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fixed-alert-msg-from-server span {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .fixed-alert-msg-from-server span strong {
+    color: #0095f6;
+  }
+}
+@media (min-width: 810px) and (max-width: 1003px) {
+  .config-profile-wrapper {
+    width: 80%;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 6rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  .config-profile-wrapper .content-config-profile {
+    width: 70%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo label {
+    font-size: 0.9rem;
+    color: #0095f6;
+    font-weight: 600;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo label {
+    font-size: 0.9rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name {
+    margin-left: 1rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text], .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email] {
+    width: 100%;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text]:focus, .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email]:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists {
+    margin: 0.4rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists span {
+    font-size: 0.9rem;
+    color: red;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button {
+    background-color: unset;
+    border: unset;
+    background-color: #39aaf5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.2s;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:hover {
+    background-color: #0575c0;
+  }
+  .config-profile-wrapper .alert-error-config-msg {
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+  }
+  .config-profile-wrapper .alert-error-config-msg span {
+    font-size: 0.9rem;
+  }
+
+  .fixed-alert-msg-from-server {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fixed-alert-msg-from-server span {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .fixed-alert-msg-from-server span strong {
+    color: #0095f6;
+  }
+}
+@media (min-width: 1004px) and (max-width: 1200px) {
+  .config-profile-wrapper {
+    width: 80%;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 6rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  .config-profile-wrapper .content-config-profile {
+    width: 60%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo label {
+    font-size: 0.9rem;
+    color: #0095f6;
+    font-weight: 600;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo label {
+    font-size: 0.9rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name {
+    margin-left: 1rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text], .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email] {
+    width: 100%;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text]:focus, .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email]:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists {
+    margin: 0.4rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists span {
+    font-size: 0.9rem;
+    color: red;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button {
+    background-color: unset;
+    border: unset;
+    background-color: #39aaf5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.2s;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:hover {
+    background-color: #0575c0;
+  }
+  .config-profile-wrapper .alert-error-config-msg {
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+  }
+  .config-profile-wrapper .alert-error-config-msg span {
+    font-size: 0.9rem;
+  }
+
+  .fixed-alert-msg-from-server {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fixed-alert-msg-from-server span {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .fixed-alert-msg-from-server span strong {
+    color: #0095f6;
+  }
+}
+@media (min-width: 1201px) {
+  .config-profile-wrapper {
+    width: 70%;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 6rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  .config-profile-wrapper .content-config-profile {
+    width: 60%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-img-config .change-form-photo label {
+    font-size: 0.9rem;
+    color: #0095f6;
+    font-weight: 600;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo input[type=file] {
+    display: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .change-form-photo label {
+    font-size: 0.9rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name {
+    margin-left: 1rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text], .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email] {
+    width: 100%;
+    border: unset;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=text]:focus, .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name input[type=email]:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists {
+    margin: 0.4rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name .alert-userd-exists span {
+    font-size: 0.9rem;
+    color: red;
+  }
+  .config-profile-wrapper .content-config-profile .change-info-user-config .input-form-change-name p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 1rem 0;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button {
+    background-color: unset;
+    border: unset;
+    background-color: #39aaf5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.2s;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:focus {
+    outline: none;
+  }
+  .config-profile-wrapper .content-config-profile .config-footer-form-config button:hover {
+    background-color: #0575c0;
+  }
+  .config-profile-wrapper .alert-error-config-msg {
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+  }
+  .config-profile-wrapper .alert-error-config-msg span {
+    font-size: 0.9rem;
+  }
+
+  .fixed-alert-msg-from-server {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fixed-alert-msg-from-server span {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .fixed-alert-msg-from-server span strong {
+    color: #0095f6;
+  }
+}
+
+/*# sourceMappingURL=config_profile.css.map */
