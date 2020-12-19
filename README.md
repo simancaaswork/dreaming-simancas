@@ -1,4 +1,4 @@
-# Instagram Clone — developed using React, Express and MongoDB
+# Instagram Clone — developed using React, Express, Node and MongoDB
 ![cover photo](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/Capture.PNG?raw=true)
 > Instagram clone developed using React, Node, Express
 
