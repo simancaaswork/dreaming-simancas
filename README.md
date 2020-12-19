@@ -1,5 +1,5 @@
 # Instagram Clone — developed using React, Express and MongoDB
-![cover photo](https://github.com/simancaaswork/chat-simancas/blob/master/screenshots/1.png?raw=true)
+![cover photo](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/Capture.PNG?raw=true)
 > Instagram clone developed using React, Node, Express
 
 
@@ -81,8 +81,15 @@ Por ultimo puedes levantar el proyecto local de dos maneras:
 ----------------------
 ## Screenshots about project
 
-![screenshot](https://github.com/simancaaswork/chat-simancas/blob/master/screenshots/2.png?raw=true)
-![screenshot](https://github.com/simancaaswork/chat-simancas/blob/master/screenshots/3.png?raw=true)
-![screenshot](https://github.com/simancaaswork/chat-simancas/blob/master/screenshots/4.png?raw=true)
-![screenshot](https://github.com/simancaaswork/chat-simancas/blob/master/screenshots/5-mobile.png?raw=true)
-![screenshot](https://github.com/simancaaswork/chat-simancas/blob/master/screenshots/6.png?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/laughing-curran-2a4bb7.netlify.app_%20(1).png?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/laughing-curran-2a4bb7.netlify.app_.png?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/laughing-curran-2a4bb7.netliqwefy.app_.png?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/laughing-rrcurran-2a4bb7.netlify.app_.png?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/IMG_5660.PNG?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/IMG_5662.PNG?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/IMG_5663.PNG?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/IMG_5664.PNG?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/IMG_5667.PNG?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/IMG_5668.PNG?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/laughing-curran-2a4bb7.netlify.app_(Galaxy%20S5)%20(1).png?raw=true)
+![screenshot](https://github.com/simancaaswork/dreaming-simancas/blob/main/screenshots/IMG_5669.PNG?raw=true)
